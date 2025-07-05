@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "logo": "logo.jpeg",
+    "title": "The Impact",
+    "place": "COPENAGHEN / DANIMARCA",
+    "coverImage": "project-cover.jpeg",
+    "slideContent": "Dettagli del primo progetto."
+  },
+  {
+    "id": 2,
+    "logo": "logo.jpeg",
+    "title": "Un Altro Progetto",
+    "place": "MILANO / ITALIA",
+    "coverImage": "project-cover.jpeg",
+    "slideContent": "Dettagli del secondo progetto."
+  },
+  {
+    "id": 3,
+    "logo": "logo.jpeg",
+    "title": "Terzo Progetto",
+    "place": "BERLINO / GERMANIA",
+    "coverImage": "project-cover.jpeg",
+    "slideContent": "Dettagli del terzo progetto."
+  },
+  {
+    "id": 4,
+    "logo": "logo.jpeg",
+    "title": "Quarto Progetto",
+    "place": "PARIGI / FRANCIA",
+    "coverImage": "project-cover.jpeg",
+    "slideContent": "Dettagli del quarto progetto."
+  }
+]

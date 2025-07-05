@@ -1,0 +1,15 @@
+@import 'reset';
+
+:root {
+    --altezza-iniziale-desktop: 300px;
+}
+
+body {
+    /* background-color: pink; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
