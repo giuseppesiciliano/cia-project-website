@@ -1,34 +1,65 @@
 [
   {
     "id": 1,
+    "title": "Interior Design Apartment",
+    "place": "LODI, ITALIA",
+    "year": "2024",
+    "category": ["residential"],
     "logo": "logo.jpeg",
-    "title": "The Impact",
-    "place": "COPENAGHEN / DANIMARCA",
     "coverImage": "project-cover.jpeg",
-    "slideContent": "Dettagli del primo progetto."
+
+    "slides": [
+      {
+        "type": "text", 
+        "content": "The current owner has inherited an extraordinary apartment in the heart of Lodi. He envisions an entrance that welcomes guests with a bold mix of his historical elements and innovative touches.\n\n For us, in this project, innovation and preservation merge in a dynam - ic and stimulating dialogue, respecting the history of this 19th-century building. Overall, the client seeks the perfect combination of Florence’s cultural heritage and 21st-century comforts, creating a distinctive and inviting environment for his guests."
+      },
+      {
+        "type": "image", 
+        "content": "slide1.jpeg"
+      }
+    ]
   },
   {
     "id": 2,
-    "logo": "logo.jpeg",
-    "title": "Un Altro Progetto",
+    "title": "Ristrutturazione Loft",
     "place": "MILANO / ITALIA",
+    "year": "2024",
+    "category": ["restauro"],
+    "logo": "logo.jpeg",
     "coverImage": "project-cover.jpeg",
-    "slideContent": "Dettagli del secondo progetto."
+
+    "slideContentOne": "Dettagli del secondo progetto.",
+    "slideContentTwo": "slide1.jpeg"
   },
   {
     "id": 3,
+    "title": "Boutique di Lusso",
+    "place": "ROMA / RM",
+    "year": "2024",
+    "category": ["retail"],
     "logo": "logo.jpeg",
-    "title": "Terzo Progetto",
-    "place": "BERLINO / GERMANIA",
     "coverImage": "project-cover.jpeg",
-    "slideContent": "Dettagli del terzo progetto."
+
+    "slideContentOne": "Dettagli del terzo progetto."
   },
   {
     "id": 4,
+    "title": "The Urban Hotel",
+    "place": "FIRENZE / FI",
+    "year": "2024",
+    "category": ["hospitality"],
     "logo": "logo.jpeg",
-    "title": "Quarto Progetto",
-    "place": "PARIGI / FRANCIA",
     "coverImage": "project-cover.jpeg",
-    "slideContent": "Dettagli del quarto progetto."
+
+    "slides": [
+      {
+        "type": "text", 
+        "content": "The current owner has inherited an extraordinary apartment in the heart of Lodi. He envisions an entrance that welcomes guests with a bold mix of his historical elements and innovative touches.\n\n For us, in this project, innovation and preservation merge in a dynam - ic and stimulating dialogue, respecting the history of this 19th-century building. Overall, the client seeks the perfect combination of Florence’s cultural heritage and 21st-century comforts, creating a distinctive and inviting environment for his guests."
+      },
+      {
+        "type": "image", 
+        "content": "slide1.jpeg"
+      }
+    ]
   }
 ]
