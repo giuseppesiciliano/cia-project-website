@@ -11,11 +11,19 @@
     "slides": [
       {
         "type": "text", 
-        "content": "The current owner has inherited an extraordinary apartment in the heart of Lodi. He envisions an entrance that welcomes guests with a bold mix of his historical elements and innovative touches.\n\n For us, in this project, innovation and preservation merge in a dynam - ic and stimulating dialogue, respecting the history of this 19th-century building. Overall, the client seeks the perfect combination of Florence’s cultural heritage and 21st-century comforts, creating a distinctive and inviting environment for his guests."
+        "content": "Uno spazio ampio e luminoso, dove l'arte dell'architettura si unisce al comfort contemporaneo.\n\n Il soffitto, prezioso elemento originale, è stato restaurato con maestria, mentre l'arredo di design si abbina perfettamente ad acecenti cromaticivivaci, dando vita a un'atmosfera invitante. Un luogo perfetto per rilassarsi e socializzare. Un ottimo esempio di come l'innovazione possa integrarsi armoniosamente con la conservazione."
       },
       {
         "type": "image", 
         "content": "slide1.jpeg"
+      },
+      {
+        "type": "text", 
+        "content": "Il design moderno si fonde con elementi classici, creando uno spazio caldo, accogliente e ricco di luce. \n\n Elettrodomestici all'avanguardia convivono con mobili in legno massello restaurati, dando vita a un ambiente funzionale che rispetta l'estetica storica senza rinunciare alla praticità contemporanea."
+      },
+      {
+        "type": "image", 
+        "content": "slide2.jpeg"
       }
     ]
   },

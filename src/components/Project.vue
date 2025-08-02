@@ -262,7 +262,7 @@ export default {
     margin-top: 50px;
   }
   .project-container.is-expanded .project-slide-one {
-    width: 700px;
+    width: 200px;
     font-size: 12px;
 
   }

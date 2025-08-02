@@ -43,7 +43,6 @@ export default {
 /* STATO FINALE (quando il genitore passa la classe .is-active) */
 .image-block.is-active {
   opacity: 1;
-  /* La variabile --altezza-iniziale-desktop è ereditata dal genitore, quindi funzionerà */
   max-height: var(--altezza-iniziale-desktop);
   width: auto;
   object-fit: cover;
