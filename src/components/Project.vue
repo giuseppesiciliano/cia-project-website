@@ -4,8 +4,8 @@
       <div class="details">
         <img class="logo" :src="getLocalImageUrl(projectData.logo)" alt="Logo">
         <div class="title">{{ projectData.title }}</div>
-        <div class="place">{{ projectData.place }}</div>
-        <div class="year">{{ projectData.year }}</div>
+        <!-- <div class="place">{{ projectData.place }}</div> -->
+        <!-- <div class="year">{{ projectData.year }}</div> -->
       </div>
       <img class="project-cover" :src="getLocalImageUrl(projectData.coverImage)" alt="Cover" @click="toggleExpand">
     </div>
@@ -18,7 +18,6 @@
     <component
       :is="componentMap[slide.type]"
       :content="slide.content"
-      
       :class="{ 'is-active': isExpanded }"
     />
   </div>
@@ -27,14 +26,14 @@
 </template>
 
 <script>
-// 1. Importa i nuovi componenti Blocco
+import DetailBlock from './blocks/DetailBlock.vue';
 import TextBlock from './blocks/TextBlock.vue';
 import ImageBlock from './blocks/ImageBlock.vue';
 
 export default {
   name: 'Project',
-  // 2. Registra i componenti
   components: {
+    DetailBlock,
     TextBlock,
     ImageBlock
   },
@@ -49,6 +48,7 @@ export default {
       isExpanded: false,
       // 3. Mappa i tipi di slide ai componenti
       componentMap: {
+        details: 'DetailBlock',
         text: 'TextBlock',
         image: 'ImageBlock'
       }
@@ -112,7 +112,6 @@ export default {
 
 .project-cover {
   aspect-ratio: 16/9;
-  background-color: blueviolet;
   transition: all 0.8s ease-in-out;
   flex-shrink: 0;
   cursor: pointer;
@@ -126,15 +125,16 @@ export default {
 
 // SLIDE ONE
 .project-slide-one {
-  // background-color: aquamarine;
   flex-shrink: 0;
-  // color: black;
   display: none;
   white-space: pre-line;
   margin-left: 20px;
   opacity: 0;
   max-height: 0;
   width: 0;
+  font-family: 'Benton Sans', Arial, sans-serif;
+  line-height: 1.2;
+  text-align: justify;
 }
 .project-container.is-expanded .project-slide-one {
   display: block;
@@ -183,6 +183,9 @@ export default {
 }
 
 .details {
+  .title {
+    font-family: 'Big John PRO', sans-serif;
+  }
   .logo {
     height: 40px;
     width: 40px;
@@ -198,7 +201,6 @@ export default {
     color: gray;
     opacity: 0;
   }
-
 }
 
 
@@ -226,6 +228,7 @@ export default {
     // width: 400px;
     // font-size: 15px;
   }
+  
   .details {
     height: var(--altezza-iniziale-desktop);
     transition: all 0.8s ease-in-out;
@@ -237,7 +240,8 @@ export default {
 
     .title {
       margin-top: 20px;
-      font-size: 13px;
+      font-size: 16px;
+      text-align: end;
     }
     .place, .year {
       margin-top: 10px;
@@ -262,9 +266,8 @@ export default {
     margin-top: 50px;
   }
   .project-container.is-expanded .project-slide-one {
-    width: 200px;
+    width: 250px;
     font-size: 12px;
-
   }
   .project-container.is-expanded .image-block {
     height: calc(85vw * 9 / 16); /* Calcola l'altezza in base alla cover */
@@ -276,7 +279,11 @@ export default {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+
+    .title {
+      font-size: 18px;
+    }
   }
 }
 </style>

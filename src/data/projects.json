@@ -2,16 +2,20 @@
   {
     "id": 1,
     "title": "Interior Design Apartment",
-    "place": "LODI, ITALIA",
+    "place": " LODI, ITALIA",
     "year": "2024",
     "category": ["residential"],
     "logo": "logo.jpeg",
-    "coverImage": "project-cover.jpeg",
+    "coverImage": "1_project-cover.jpeg",
 
     "slides": [
       {
+        "type": "details", 
+        "content": "ciao"
+      },
+      {
         "type": "text", 
-        "content": "Uno spazio ampio e luminoso, dove l'arte dell'architettura si unisce al comfort contemporaneo.\n\n Il soffitto, prezioso elemento originale, è stato restaurato con maestria, mentre l'arredo di design si abbina perfettamente ad acecenti cromaticivivaci, dando vita a un'atmosfera invitante. Un luogo perfetto per rilassarsi e socializzare. Un ottimo esempio di come l'innovazione possa integrarsi armoniosamente con la conservazione."
+        "content": "Uno spazio ampio e luminoso, dove l'arte dell'architettura si unisce al comfort contemporaneo.\n\n Il soffitto, prezioso elemento originale, e' stato restaurato con maestria, mentre l'arredo di design si abbina perfettamente ad acecenti cromaticivivaci, dando vita a un'atmosfera invitante. Un luogo perfetto per rilassarsi e socializzare. Un ottimo esempio di come l'innovazione possa integrarsi armoniosamente con la conservazione."
       },
       {
         "type": "image", 
@@ -29,44 +33,73 @@
   },
   {
     "id": 2,
-    "title": "Ristrutturazione Loft",
-    "place": "MILANO / ITALIA",
+    "title": "Interior Design Apartment",
+    "place": "LODI, ITALIA",
     "year": "2024",
-    "category": ["restauro"],
+    "category": ["interiors"],
     "logo": "logo.jpeg",
-    "coverImage": "project-cover.jpeg",
-
-    "slideContentOne": "Dettagli del secondo progetto.",
-    "slideContentTwo": "slide1.jpeg"
-  },
-  {
-    "id": 3,
-    "title": "Boutique di Lusso",
-    "place": "ROMA / RM",
-    "year": "2024",
-    "category": ["retail"],
-    "logo": "logo.jpeg",
-    "coverImage": "project-cover.jpeg",
-
-    "slideContentOne": "Dettagli del terzo progetto."
-  },
-  {
-    "id": 4,
-    "title": "The Urban Hotel",
-    "place": "FIRENZE / FI",
-    "year": "2024",
-    "category": ["hospitality"],
-    "logo": "logo.jpeg",
-    "coverImage": "project-cover.jpeg",
+    "coverImage": "2_project-cover.jpg",
 
     "slides": [
       {
         "type": "text", 
-        "content": "The current owner has inherited an extraordinary apartment in the heart of Lodi. He envisions an entrance that welcomes guests with a bold mix of his historical elements and innovative touches.\n\n For us, in this project, innovation and preservation merge in a dynam - ic and stimulating dialogue, respecting the history of this 19th-century building. Overall, the client seeks the perfect combination of Florence’s cultural heritage and 21st-century comforts, creating a distinctive and inviting environment for his guests."
+        "content": "Uno spazio ampio e luminoso, dove l'arte dell'architettura si unisce al comfort contemporaneo.\n\n Il soffitto, prezioso elemento originale, è stato restaurato con maestria, mentre l'arredo di design si abbina perfettamente ad acecenti cromaticivivaci, dando vita a un'atmosfera invitante. Un luogo perfetto per rilassarsi e socializzare. Un ottimo esempio di come l'innovazione possa integrarsi armoniosamente con la conservazione."
       },
       {
         "type": "image", 
-        "content": "slide1.jpeg"
+        "content": "2_slide1.jpeg"
+      },
+      {
+        "type": "text", 
+        "content": "Il design moderno si fonde con elementi classici, creando uno spazio caldo, accogliente e ricco di luce. \n\n Elettrodomestici all'avanguardia convivono con mobili in legno massello restaurati, dando vita a un ambiente funzionale che rispetta l'estetica storica senza rinunciare alla praticità contemporanea."
+      },
+      {
+        "type": "image", 
+        "content": "2_slide2.jpg"
+      },
+      {
+        "type": "text", 
+        "content": "Il design moderno si fonde con elementi classici, creando uno spazio caldo, accogliente e ricco di luce. \n\n Elettrodomestici all'avanguardia convivono con mobili in legno massello restaurati, dando vita a un ambiente funzionale che rispetta l'estetica storica senza rinunciare alla praticità contemporanea."
+      },
+      {
+        "type": "image", 
+        "content": "2_slide3.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Interior Design Apartment",
+    "place": "LODI, ITALIA",
+    "year": "2024",
+    "category": ["interiors"],
+    "logo": "logo.jpeg",
+    "coverImage": "3_project-cover.jpeg",
+
+    "slides": [
+      {
+        "type": "text", 
+        "content": "Uno spazio ampio e luminoso, dove l'arte dell'architettura si unisce al comfort contemporaneo.\n\n Il soffitto, prezioso elemento originale, è stato restaurato con maestria, mentre l'arredo di design si abbina perfettamente ad acecenti cromaticivivaci, dando vita a un'atmosfera invitante. Un luogo perfetto per rilassarsi e socializzare. Un ottimo esempio di come l'innovazione possa integrarsi armoniosamente con la conservazione."
+      },
+      {
+        "type": "image", 
+        "content": "3_slide1.jpeg"
+      },
+      {
+        "type": "text", 
+        "content": "Il design moderno si fonde con elementi classici, creando uno spazio caldo, accogliente e ricco di luce. \n\n Elettrodomestici all'avanguardia convivono con mobili in legno massello restaurati, dando vita a un ambiente funzionale che rispetta l'estetica storica senza rinunciare alla praticità contemporanea."
+      },
+      {
+        "type": "image", 
+        "content": "3_slide2.jpeg"
+      },
+      {
+        "type": "text", 
+        "content": "Il design moderno si fonde con elementi classici, creando uno spazio caldo, accogliente e ricco di luce. \n\n Elettrodomestici all'avanguardia convivono con mobili in legno massello restaurati, dando vita a un ambiente funzionale che rispetta l'estetica storica senza rinunciare alla praticità contemporanea."
+      },
+      {
+        "type": "image", 
+        "content": "3_slide3.jpeg"
       }
     ]
   }

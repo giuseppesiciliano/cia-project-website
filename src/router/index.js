@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue'; 
 // 1. Importa il nuovo componente Contatti
 import Contatti from '../views/Contatti.vue'; 
+import UnderConstruction from '../components/UnderConstruction.vue' // <-- PERCORSO AGGIORNATO
+
 
 const routes = [
   {
@@ -13,7 +15,7 @@ const routes = [
   {
     path: '/contatti',        // L'URL che attiverà questa rotta
     name: 'Contatti',         // Il nome della rotta
-    component: Contatti       // Il componente da visualizzare
+    component: UnderConstruction       // Il componente da visualizzare
   }
 ];
 
